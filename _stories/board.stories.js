@@ -17,8 +17,7 @@ Default.args = {
 
 export const Triangle = Template.bind({});
 Triangle.args = {
-  // squares: ["▲", "▲", "▲", "▲", "▲", "▲", "▲", "▲", "▲"],
-  squares: ["丁", "半", "丁", "半", "丁", "半", "丁", "半", "丁"],
+  squares: ["▲", "▲", "▲", "▲", "▲", "▲", "▲", "▲", "▲"],
   onClick: () => {
     console.log("- - - -");
   },

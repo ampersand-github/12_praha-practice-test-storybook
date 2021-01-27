@@ -75,3 +75,10 @@ npx sb init --type react_scripts -f
 npm install add -D --exact babel-loader@8.1.0
 
 npm run storybook
+
+snapshot test
+初回は成功して__snapshots__が生成される
+2回目以降はstoryなどの変更点があるとテストが失敗
+変更しても問題ない場合は-u
+変更が反映されてテストが成功
+npm test
